@@ -166,6 +166,12 @@ const Register = () => {
                   Login
                 </Link>
               </p>
+              <p className='text-[13px] text-slate-800 mt-3'>
+              Go Home{' '}
+              <Link className='font-medium text-primary underline' to='/'>
+                Home
+              </Link>
+            </p>
             </div>
           </div>
         </form>
